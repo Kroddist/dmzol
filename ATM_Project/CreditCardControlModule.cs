@@ -9,7 +9,7 @@ namespace ATM_Project
             Console.WriteLine("[CardControl] -> Введите карту...");
             Console.WriteLine("[CardControl] -> Считывание информации с карты...");
             
-            CreditCardData.ClientAttributes = "Иванов И.И., 4500 1234 5678 9010";
+            CreditCardData.ClientAttributes = "Сливка Р.Л., 4500 1234 5678 9010";
             CreditCardData.Parol = "1234"; 
             CreditCardData.LimitOfMoney = 50000m;
             

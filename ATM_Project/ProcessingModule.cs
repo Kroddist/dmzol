@@ -30,7 +30,6 @@ namespace ATM_Project
                     Console.WriteLine("[Processing] -> Некорректный выбор.");
                     break;
             }
-            
             Console.WriteLine("[Processing] -> Запрос обработан.");
         }
 

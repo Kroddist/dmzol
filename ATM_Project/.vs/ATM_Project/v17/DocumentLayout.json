@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\ATM_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\ATM_Project\\ATM_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ATM_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATM_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\ATM_Project\\ProcessingModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProcessingModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardControlModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CreditCardControlModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\ATM_Project\\CreditCardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CreditCardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\ATM_Project\\AuthModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ProcessingModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProcessingModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\AuthModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuthModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ATM_Project.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ATM_Project.csproj",
+              "RelativeDocumentMoniker": "ATM_Project.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ATM_Project.csproj",
+              "RelativeToolTip": "ATM_Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-27T08:29:41.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthModule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\AuthModule.cs",
+              "RelativeDocumentMoniker": "AuthModule.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\AuthModule.cs",
+              "RelativeToolTip": "AuthModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T08:25:47.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProcessingModule.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ATM_Project\\ProcessingModule.cs",
-              "RelativeDocumentMoniker": "ProcessingModule.cs",
-              "ToolTip": "C:\\Users\\User\\ATM_Project\\ProcessingModule.cs",
-              "RelativeToolTip": "ProcessingModule.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreditCardControlModule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardControlModule.cs",
+              "RelativeDocumentMoniker": "CreditCardControlModule.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardControlModule.cs",
+              "RelativeToolTip": "CreditCardControlModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:08:20.942Z",
+              "WhenOpened": "2025-11-27T08:25:16.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CreditCardData.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ATM_Project\\CreditCardData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardData.cs",
               "RelativeDocumentMoniker": "CreditCardData.cs",
-              "ToolTip": "C:\\Users\\User\\ATM_Project\\CreditCardData.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardData.cs",
               "RelativeToolTip": "CreditCardData.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:08:18.81Z",
+              "WhenOpened": "2025-11-27T08:24:03.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthModule.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ATM_Project\\AuthModule.cs",
-              "RelativeDocumentMoniker": "AuthModule.cs",
-              "ToolTip": "C:\\Users\\User\\ATM_Project\\AuthModule.cs",
-              "RelativeToolTip": "AuthModule.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProcessingModule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ProcessingModule.cs",
+              "RelativeDocumentMoniker": "ProcessingModule.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ProcessingModule.cs",
+              "RelativeToolTip": "ProcessingModule.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:08:12.54Z",
+              "WhenOpened": "2025-11-27T08:22:59.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ATM_Project.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\ATM_Project\\ATM_Project.csproj",
-              "RelativeDocumentMoniker": "ATM_Project.csproj",
-              "ToolTip": "C:\\Users\\User\\ATM_Project\\ATM_Project.csproj",
-              "RelativeToolTip": "ATM_Project.csproj",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-27T08:08:10.084Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T08:22:44.257Z",
               "EditorCaption": ""
             }
           ]
