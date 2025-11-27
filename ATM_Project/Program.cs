@@ -14,13 +14,10 @@ namespace ATM_Project
 
             try
             {
-                // 1. Считывание
                 cardControl.ReadCardInfo();
 
-                // 2. Аутентификация
                 bool isAuthenticated = auth.Authenticate();
 
-                // 3. Обработка
                 if (isAuthenticated)
                 {
                     processing.ProcessRequest();
@@ -36,12 +33,10 @@ namespace ATM_Project
             }
             finally
             {
-                // 4. Возврат карты
                 cardControl.EjectCard();
             }
 
             Console.WriteLine("=== СЕАНС ЗАВЕРШЕН ===");
-            // Console.ReadKey(); 
         }
     }
 }
