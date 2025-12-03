@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ATM_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATM_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardControlModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CreditCardControlModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ATM_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATM_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ATM_Project.csproj",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\ATM_Project.csproj",
               "RelativeDocumentMoniker": "ATM_Project.csproj",
@@ -59,18 +59,17 @@
               "RelativeToolTip": "AuthModule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:25:47.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T08:25:47.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CreditCardControlModule.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardControlModule.cs",
               "RelativeDocumentMoniker": "CreditCardControlModule.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\dmzol\\ATM_Project\\CreditCardControlModule.cs",
               "RelativeToolTip": "CreditCardControlModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T08:25:16.44Z",
               "EditorCaption": ""
@@ -85,8 +84,7 @@
               "RelativeToolTip": "CreditCardData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:24:03.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T08:24:03.761Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "ProcessingModule.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:22:59.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T08:22:59.074Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:22:44.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T08:22:44.257Z"
             }
           ]
         }

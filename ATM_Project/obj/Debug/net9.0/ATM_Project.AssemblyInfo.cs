@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ATM_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d37a1df55312cdce529a98d89ba3026d1abef02c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87349b93577c66459619294ab3a0b04a081aea70")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATM_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATM_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

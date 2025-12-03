@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zol1.MainPage">
+
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,*" Padding="20" RowSpacing="10">
+        
+        <Label Grid.Row="0" 
+               Text="Фирма канцтоваров"
+               FontSize="32"
+               HorizontalOptions="Center" />
+
+        <HorizontalStackLayout Grid.Row="1" Spacing="10" HorizontalOptions="Center">
+            <Button x:Name="ConnectBtn" Text="Подключиться" Clicked="OnConnectClicked"/>
+            <Button x:Name="DisconnectBtn" Text="Отключиться" Clicked="OnDisconnectClicked" BackgroundColor="Red"/>
+        </HorizontalStackLayout>
+
+        <Picker Grid.Row="2" x:Name="QueryPicker" Title="Выберите запрос">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Все товары</x:String>
+                    <x:String>Все типы</x:String>
+                    <x:String>Все менеджеры</x:String>
+                    <x:String>Товары с макс. кол-вом</x:String>
+                    <x:String>Товары с мин. кол-вом</x:String>
+                    <x:String>Товары с мин. себестоимостью</x:String>
+                    <x:String>Товары с макс. себестоимостью</x:String>
+                    <x:String>Товары заданного типа (ввод)</x:String>
+                    <x:String>Продажи менеджера (ввод)</x:String>
+                    <x:String>Продажи фирме (ввод)</x:String>
+                    <x:String>Последняя продажа</x:String>
+                    <x:String>Среднее кол-во по типам</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Entry Grid.Row="3" x:Name="ParamEntry" Placeholder="Введите параметр (для поиска)" IsVisible="True"/>
+
+        <Button Grid.Row="4" Text="Выполнить запрос" Clicked="OnExecuteQueryClicked"/>
+
+        <ScrollView Grid.Row="5" BackgroundColor="#000000">
+            <Label x:Name="OutputLabel" Padding="10" Text="Результаты будут здесь..." LineBreakMode="WordWrap"/>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
