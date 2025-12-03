@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zol2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="20">
+
+            <Label Text="Управление Базой Данных 'Страны'"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Frame BorderColor="Gray" Padding="10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Настройки подключения:" FontAttributes="Bold"/>
+                    <Label Text="Имя сервера (например: (localdb)\MSSQLLocalDB или .\SQLEXPRESS):" FontSize="12"/>
+                    <Entry x:Name="ServerNameEntry" Text="(localdb)\MSSQLLocalDB" Placeholder="Введите имя сервера"/>
+                    
+                    <Label Text="Статус подключения:" FontAttributes="Bold" Margin="0,10,0,0"/>
+                    <Label x:Name="StatusLabel" Text="Не подключено" TextColor="Red"/>
+                    <Label x:Name="ErrorLabel" TextColor="Red" IsVisible="False"/>
+                    <Button x:Name="ConnectBtn" Text="Подключиться" Clicked="OnConnectClicked"/>
+                    <Button x:Name="DisconnectBtn" Text="Отключиться" Clicked="OnDisconnectClicked" IsEnabled="False"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <VerticalStackLayout x:Name="OperationsPanel" Spacing="15" IsVisible="False">
+                
+                <Frame BorderColor="Gray" Padding="10">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Задание 3: Отчеты" FontAttributes="Bold"/>
+                        <Button Text="Все страны (Полная инфо)" Clicked="OnGetAllCountriesClicked"/>
+                        <Button Text="Частичная информация (Имя, Столица)" Clicked="OnGetPartialInfoClicked"/>
+                        
+                        <Grid ColumnDefinitions="*, Auto">
+                            <Entry x:Name="CountryNameEntry" Placeholder="Введите название страны"/>
+                            <Button Grid.Column="1" Text="Поиск" Clicked="OnSearchCountryClicked"/>
+                        </Grid>
+                        <Button Text="Инфо о городах (Столице)" Clicked="OnGetCityInfoClicked"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BorderColor="Gray" Padding="10">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Задание 4: Фильтры" FontAttributes="Bold"/>
+                        <Grid ColumnDefinitions="*, Auto, Auto">
+                            <Entry x:Name="LetterEntry" Placeholder="Буква" MaxLength="1"/>
+                            <Button Grid.Column="1" Text="Страны на букву" Clicked="OnCountriesByLetterClicked"/>
+                            <Button Grid.Column="2" Text="Столицы на букву" Clicked="OnCapitalsByLetterClicked"/>
+                        </Grid>
+                        <Button Text="Топ-3 Столиц (мин. население)" Clicked="OnTop3CapitalsMinPopClicked"/>
+                        <Button Text="Топ-3 Стран (мин. население)" Clicked="OnTop3CountriesMinPopClicked"/>
+                        <Button Text="Среднее население столиц по регионам" Clicked="OnAvgCapitalPopByRegionClicked"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BorderColor="Gray" Padding="10">
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Задание 5: Сложные отчеты" FontAttributes="Bold"/>
+                        <Picker x:Name="RegionPicker" Title="Выберите регион"/>
+                        <Grid ColumnDefinitions="*,*">
+                            <Button Text="Топ-3 Мин (Регион)" Clicked="OnTop3MinByRegionClicked"/>
+                            <Button Grid.Column="1" Text="Топ-3 Макс (Регион)" Clicked="OnTop3MaxByRegionClicked"/>
+                        </Grid>
+                        <Label Text="Для выбранной страны (выше):" FontSize="12"/>
+                        <Button Text="Среднее население (Страна)" Clicked="OnAvgPopInCountryClicked"/>
+                        <Button Text="Город с мин. населением (Страна)" Clicked="OnMinPopCityInCountryClicked"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+            </VerticalStackLayout>
+
+            <Label Text="Результаты:" FontAttributes="Bold" Margin="0,10,0,0"/>
+            <Editor x:Name="OutputEditor" 
+                    IsReadOnly="True" 
+                    HeightRequest="200" 
+                    Placeholder="Здесь появятся результаты..."
+                    FontFamily="Consolas"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
