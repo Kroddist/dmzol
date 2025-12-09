@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lastprogram</name>
+    </assembly>
+    <members>
+        <member name="T:lastprogram.Models.Country">
+            <summary>
+            Представление записи таблицы "Страны".
+            </summary>
+        </member>
+        <member name="T:lastprogram.Services.CountryRepository">
+            <summary>
+            Имитирует таблицу базы данных "Страны" и реализует LINQ-запросы.
+            </summary>
+        </member>
+        <member name="T:lastprogram.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>
